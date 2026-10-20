@@ -1,0 +1,24 @@
+# Project instructions — MNG iOS Design System
+
+**Read the Core instructions first:** [mng_apps_core_ds/CLAUDE.md](https://github.com/kuscholdMNG/mng_apps_core_ds/blob/main/CLAUDE.md) (local: `~/Github/mng_apps_core_ds/CLAUDE.md`). Every rule there applies here. This file adds only what is specific to iOS.
+
+## Scope
+
+This library holds only what iOS can't share with Core. Default every item to Core. An item comes here only after Karl approves it as **iOS only** on the Core file's ownership pages (see `mng_apps_core_ds/docs/PLATFORM-OWNERSHIP.md`).
+
+Typical iOS-only items: SF Symbols glyphs, Sign in with Apple, native eNewspaper viewer controls, player skip controls, the section header band (`header`), and any iOS-only exceptions to Core values.
+
+## Files
+
+| | |
+|---|---|
+| Figma | MNG iOS Design System (`uNxwBNoP4ODDUFGByi73mZ`) |
+| Repo | [kuscholdMNG/mng_apps_ios_ds](https://github.com/kuscholdMNG/mng_apps_ios_ds) · local `~/Github/mng_apps_ios_ds` |
+| Shipped code | TroncKit @ `e30ad2585` |
+| Style guide | https://claude.ai/artifact/V364juyHFU3STfVZ6EgjMc |
+
+Shipped-code data and the iOS vs Android comparisons stay in the Core repo (`data/`), so there is one copy. Figma variables here alias Core variables; never copy a Core value into this file.
+
+## Status
+
+Nothing has moved here yet. Track work in `PROGRESS.md`.
