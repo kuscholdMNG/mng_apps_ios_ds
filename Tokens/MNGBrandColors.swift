@@ -367,6 +367,18 @@ public enum MNGBrandPalettes {
         alerttext: UIColor(mngHex: 0xFFFFFF)  /* #ffffff · rgb(255, 255, 255) */,
         header: UIColor(mngHex: 0x004E87)  /* #004e87 · rgb(0, 78, 135) */
     )
+    /// Daily Herald (TDH)
+    public static let tdh = MNGBrandPalette(
+        navbar: UIColor(mngHex: 0x0072B4)  /* #0072b4 · rgb(0, 114, 180) */,
+        navtext: UIColor(mngHex: 0xFFFFFF)  /* #ffffff · rgb(255, 255, 255) */,
+        tabbar: UIColor(mngHex: 0x0072B4)  /* #0072b4 · rgb(0, 114, 180) */,
+        tabactive: UIColor(mngHex: 0x000000)  /* #000000 · rgb(0, 0, 0) */,
+        tabinactive: UIColor(mngHex: 0xFFFFFF)  /* #ffffff · rgb(255, 255, 255) */,
+        action: UIColor(mngHex: 0x0072B4)  /* #0072b4 · rgb(0, 114, 180) */,
+        alert: UIColor(mngHex: 0xCF000E)  /* #cf000e · rgb(207, 0, 14) */,
+        alerttext: UIColor(mngHex: 0xFFFFFF)  /* #ffffff · rgb(255, 255, 255) */,
+        header: UIColor(mngHex: 0x0072B4)  /* #0072b4 · rgb(0, 114, 180) */
+    )
     /// Daily Local Weschester (TDLW)
     public static let tdlw = MNGBrandPalette(
         navbar: UIColor(mngHex: 0x1591B7)  /* #1591b7 · rgb(21, 145, 183) */,
@@ -987,6 +999,7 @@ public enum MNGBrandPalettes {
         case "tdc": return tdc
         case "tdcd": return tdcd
         case "tdf": return tdf
+        case "tdh": return tdh
         case "tdlw": return tdlw
         case "tdp": return tdp
         case "tdps": return tdps
