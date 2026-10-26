@@ -15,3 +15,4 @@ Legend: ✅ done · 🔄 in progress · ⏸ waiting on review/input · ⬜ not s
 - **2026-10-20** — Repo set up with CLAUDE.md pointing to Core instructions.
 - **2026-10-21** — First generated brand color tokens from Core (DEC-04).
 - **2026-10-26** — Button pilot (DEC-07): Tokens/MNGButtonTokens.swift (generated) and Components/Button/MNGButton.swift: MNGPrimaryButton, MNGTextLinkButton, SwiftUI MNGPrimaryButtonStyle. Not compiled yet. Core: docs/components/BUTTON.md, DEC-07 (mng_apps_core_ds). Figma: Button variables in this platform file.
+- **2026-10-26** — Figma: page Components · Button with Button/Primary (Template Standard/Legacy × State) and Button/Text link; collections Button · iOS and Text link · iOS; text styles Button/Label, Button/Text link. Core library enabled (mng_apps_core_ds).
